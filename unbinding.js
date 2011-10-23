@@ -1,3 +1,8 @@
+
+// In both types of event binding, DOM and model/collection, the view is the observer. The responsibility to
+// clean up is on the observer, and here the responsibility consists of unbinding the event handler when the view
+// is being removed.
+
 // Unbinding using just a leave() function
 
 var SomeCollectionView = Backbone.View.extend({
