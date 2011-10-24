@@ -1,3 +1,13 @@
+
+// Our CompositeView maintains an array of its immediate children as
+// this.children. With this reference in place, a parent view's leave()
+// method can invoke leave() on its children, ensuring that an entire tree
+// of composed views is cleaned up properly
+
+// For child views that can dismiss themselves, such as dialog boxes,
+// children maintain a back-reference at this.parent. This is used to reach up
+// and call this.parent.removeChild(this) for these self-dismissing views.
+
 Support.CompositeView = function(options)	{
 	this.children = _([]);
 	Backbone.View.apply(this, [options]);
