@@ -1,6 +1,6 @@
 # Backbone Snippets
 
-A collection of useful backbone.js code snippets, techniques, and design patterns.
+A collection of useful Backbone.js code snippets, techniques, and design patterns.
 
 ## Topics Covered
 
