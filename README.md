@@ -12,5 +12,21 @@ A collection of useful backbone.js code snippets, techniques, and design pattern
 
 3. Filters and Sorting
 
+### Views
+
+1. Composite Views
+
+2. Custom Event Binding
+
+3. Unbinding
+
+### Routers
+
+1. Swapping Router
+
+### Misc.
+
+1. Form Serialization
+
 
 
